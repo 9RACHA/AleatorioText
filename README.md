@@ -17,13 +17,13 @@ public class TextController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        nombres.Add("Changbin");
-        nombres.Add("Bangchan");
-        nombres.Add("Jungkook");
-        nombres.Add("Suga");
-        nombres.Add("Felix");
+        nombres.Add("Julio");
+        nombres.Add("Fran");
+        nombres.Add("Pepe");
+        nombres.Add("Manolo");
+        nombres.Add("Paco");
         if(texto == null){
-            Debug.Log("testo sin asignar");
+            Debug.Log("texto no asignado");
         }
         else {
             texto.text = nombres[Random.Range(0, nombres.Count)].ToString();
